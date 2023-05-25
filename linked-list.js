@@ -18,6 +18,7 @@ class LinkedList {
     this.length++;
   }
 
+
   addToTail(val) {
     const newNode = new LinkedListNode(val, null);
 
